@@ -52,7 +52,8 @@ Instead create a page called "homepage", and use the ```page-homepage.php``` tem
 
 ### Do not put any PHP in ```functions.php```
 
-Instead put all code in separate, well-named files in ```/lib```
+* put all code in separate, well-named files in ```/lib```
+* Put configuration code for plugins in files starting with "plugin-" e.g. ```plugin-woocommerce-settings.php```
 
 
 

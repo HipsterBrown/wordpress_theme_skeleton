@@ -40,6 +40,8 @@ function custom_js()
 
 }
 
+add_action( 'wp_enqueue_scripts', 'custom_js' );
+
 
 
 /**
@@ -70,9 +72,6 @@ function custom_css()
     wp_enqueue_style('style-css');
 }
 
-
-
-add_action( 'wp_enqueue_scripts', 'custom_js' );
 add_action( 'wp_enqueue_scripts', 'custom_css' );
 
 

@@ -1,5 +1,7 @@
 <?php 
-
+/**
+ * Mostly borrowed from HTML5 Blank
+ */
 
 
 // Remove Actions
