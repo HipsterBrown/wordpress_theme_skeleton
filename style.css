@@ -1,0 +1,80 @@
+/*
+ * Theme Name: [client name]
+ * Description: A theme for [client name] built by SurgeWP
+ * Version: 1.0.0
+ * Author: Surge WP
+*/
+/**
+ * Common mixins
+ */
+/*
+ * media query sizes based on bootstrap
+ * CSS:
+ * @media screen and (max-width: $screen-sm-max) {
+ *    display: none;
+ * }
+ * 
+ */
+/**
+ * colors
+ * 
+ */
+/**
+ * size variables
+ */
+/**
+ * @link https://gist.github.com/garyharan/957284
+ * MODIFIED: spread added
+ */
+/**
+ * @link https://gist.github.com/garyharan/957284
+ * MODIFIED: all 4 corners added
+ */
+/**
+ * For vertical-aligning elements
+ * Works well with the Bootstrap carousel
+ *
+ * HTML:
+ * <div class="wrapper">
+ *     <div class="content">centered content</div>
+ * </div>
+ *
+ * CSS:
+ * .wrapper {@include vertical-align-wrapper();}
+ * .content {@include vertical-align();}
+ */
+/**
+ * Commonly reused styles
+ */
+/**
+ * Site-wide styles
+ */
+html,
+body {
+  height: 100%; }
+
+#wrapper-all {
+  min-height: 100%;
+  position: relative; }
+
+#wrapper-content {
+  padding-bottom: 5em; }
+
+/**
+ * Header styles
+ */
+.site-logo img {
+  max-height: 2em; }
+
+/**
+ * Footer styles
+ */
+#site-footer {
+  bottom: 0;
+  height: 5em;
+  position: absolute;
+  width: 100%; }
+
+/**
+ * Homepage styles
+ */

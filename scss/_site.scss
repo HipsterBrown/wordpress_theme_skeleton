@@ -1,0 +1,19 @@
+/**
+ * Site-wide styles
+ */
+
+
+html,
+body {
+	height:100%;
+}
+
+#wrapper-all {
+	min-height:100%; // for footer
+	position:relative; // for footer
+}
+
+
+#wrapper-content {
+	padding-bottom: $footer-height; // Height of the footer
+}
