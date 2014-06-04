@@ -60,10 +60,14 @@ Instead put all code in separate, well-named files in ```/lib```
 * put all rules in alphabetical order
 
 
-/**
- * Theme Name: Surge Skeleton based on HTML5 Blank
- * Theme URI: http://surgewp.com
- * Description: A skeleton Wordpress theme for further developement (based on the HTML5 Blank WordPress Theme)
- * Version: 1.0.0
- * Author: Surge WP
- **/
+
+### put all template parts in ```/templates```
+* Anything that isn't a complete page should go into ```/templates```
+* create lots of sub-directories, like ```/homepage``` and ```/gallery```
+
+
+
+### use ```include(locate_template('templates/pagination.php'));``` instead of ```get_template_part('pagination');```
+* This way template parts have access to loop and global variables
+
+
