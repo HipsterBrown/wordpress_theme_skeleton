@@ -1,17 +1,14 @@
 <?php get_header(); ?>
 	
-	<!-- section -->
-	<section role="main">
-	
-		<h1><?php _e( 'Categories for', 'custom' ); the_category(); ?></h1>
-	
-		<?php get_template_part('loop'); ?>
+	<div class="row">
+		<section class="col col-sm-9 col-main" role="main">
+			<h1><?php _e( 'Categories for', 'custom' ); the_category(); ?></h1>
 		
-		<?php get_template_part('pagination'); ?>
-	
-	</section>
-	<!-- /section -->
-	
-<?php get_sidebar(); ?>
+			<?php include(locate_template('templates/loop.php')); ?>
+			<?php include(locate_template('templates/pagination.php')); ?>		
+		</section>
+		<?php get_sidebar(); ?>
+	</div><!-- row -->
+
 
 <?php get_footer(); ?>

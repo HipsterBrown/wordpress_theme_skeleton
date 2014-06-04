@@ -70,6 +70,7 @@ body {
  * Footer styles
  */
 #site-footer {
+  background: #333333;
   bottom: 0;
   height: 5em;
   position: absolute;
