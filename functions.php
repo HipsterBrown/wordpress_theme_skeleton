@@ -11,6 +11,13 @@ ini_set('display_errors', 1);
 
 
 /**
+ * user roles
+ */
+include __DIR__ . '/lib/user-roles.php';
+
+
+
+/**
  * theme customization
  */
 include __DIR__ . '/lib/theme-support.php';
@@ -37,7 +44,7 @@ include __DIR__ . '/lib/html-cleanup.php';
 
 
 /**
- * helder classes
+ * helper classes
  */
 include __DIR__ . '/lib/walker-nav-menu-bootstrap.php';
 

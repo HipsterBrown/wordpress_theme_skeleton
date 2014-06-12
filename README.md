@@ -72,3 +72,18 @@ Instead create a page called "homepage", and use the ```page-homepage.php``` tem
 * This way template parts have access to loop and global variables
 
 
+
+----------
+
+
+
+## Admin Menu Editor and Roles
+
+* make sure you are an ```administrator```
+* *Create a new user for the client, and make them a ```site_admin``` NOT an ```administrator```*
+* install the ```admin menu editor pro``` plugin
+* now you can customize the experience for the client
+
+Included in the theme is a file called ```user-roles.php```. A function called ```create_site_admin_role``` will create a new role called ```site_admin```. It's a copy of the default ```administrator``` role. 
+
+For more detail, check out [A better client experience using Admin Menu Editor Pro](https://docs.google.com/a/surgeforward.com/document/d/1fZMPtjt1ZBb0gPIFi6GtNukPk-cUkhMOD1j0zKYr_lc/edit?usp=sharing)
