@@ -94,11 +94,11 @@ add_filter('post_thumbnail_html', 'remove_thumbnail_dimensions', 10); // Remove 
 
 
 // Remove Injected classes, ID's and Page ID's from Navigation <li> items
-function custom_css_attributes_filter($var)
-{
-    return is_array($var) ? array() : '';
-}
-add_filter('nav_menu_css_class', 'custom_css_attributes_filter', 100, 1); // Remove Navigation <li> injected classes (Commented out by default)
+// function custom_css_attributes_filter($var)
+// {
+//     return is_array($var) ? array() : '';
+// }
+// add_filter('nav_menu_css_class', 'custom_css_attributes_filter', 100, 1); // Remove Navigation <li> injected classes (Commented out by default)
 
 
 
